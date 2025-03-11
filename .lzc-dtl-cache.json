@@ -1,0 +1,33 @@
+{
+  "name": "LetsMarkdown",
+  "package": "cloud.lazycat.app.letsmarkdown",
+  "description": "一个简单易用的轻量级 markdown 文档协作工具",
+  "homepage": "https://github.com/Cveinnt/LetsMarkdown.com",
+  "author": "Cveinnt",
+  "app_features": [
+    "public_path"
+  ],
+  "subdomain": "letsmarkdown",
+  "version": "0.0.1",
+  "public_paths": [
+    "/"
+  ],
+  "iconPath": "favicon.png",
+  "composePath": "docker-compose.yml",
+  "unsupported_platforms": [],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "letsmarkdown_3030_3030": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_cveinnt_letsmarkdown": {
+    "originalImage": "cveinnt/letsmarkdown",
+    "pushTarget": "lazycat",
+    "newImageName": "registry.lazycat.cloud/czyt/cveinnt/letsmarkdown:fec103899bcbfa5a",
+    "timestamp": "2025-03-11T13:15:59.419Z"
+  }
+}
