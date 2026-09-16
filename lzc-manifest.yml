@@ -1,0 +1,14 @@
+application:
+  subdomain: letsmarkdown
+  background_task: false
+  multi_instance: false
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://letsmarkdown:3030/
+
+services:
+  letsmarkdown:
+    # upstream: cveinnt/letsmarkdown:latest
+    image: docker.1ms.run/cveinnt/letsmarkdown:latest@sha256:fec103899bcbfa5a5fe637013ed6e01b4958e341d720324b3186e95782a0f570

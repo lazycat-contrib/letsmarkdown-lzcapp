@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.letsmarkdown
+version: 0.0.1
+name: LetsMarkdown
+description: 一个简单易用的轻量级 markdown 文档协作工具
+min_os_version: "1.5.0"
+homepage: https://github.com/Cveinnt/LetsMarkdown.com
+author: Cveinnt
+locales:
+  zh:
+    name: LetsMarkdown
+    description: 一个简单易用的轻量级 markdown 文档协作工具
+  en:
+    name: LetsMarkdown
+    description: A simple and lightweight markdown document collaboration tool
